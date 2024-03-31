@@ -1,0 +1,3 @@
+DROP FOREIGN TABLE IF EXISTS employees_confidential_fdw;
+DROP USER MAPPING IF EXISTS FOR s4778958 SERVER foreign_server;
+DROP SERVER IF EXISTS foreign_server;

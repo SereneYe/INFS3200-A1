@@ -1,0 +1,9 @@
+pg_dump -t employees_confidential emp_s4778958 > employees_confidential.sql
+
+CREATE DATABASE EMP_Confidential;
+
+\c EMP_Confidential;
+
+\i employees_confidential.sql
+
+SELECT * FROM public.employees_confidential LIMIT 10;
